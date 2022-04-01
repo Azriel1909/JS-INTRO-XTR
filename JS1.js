@@ -332,3 +332,25 @@ console.log(miCadena4[2]); // L
 console.log(miCadena4[3]); // A
 console.log(miCadena4[4]); // UNDEFINED
 
+// TEMA 32 - NOTACIÓN DE CORCHETES: ÚLTIMO CARÁCTER
+var miCadena5;
+/**El último indice siempre es longitud -1 porque comenzamos a contar desde 0
+ * miCadena5.length para JavaScript es "10"
+ * El último índice es 9
+ * Cadena: J a v a S c r i p t
+ * índice: 0 1 2 3 4 5 6 7 8 9
+ */
+miCadena5 = "JavaScript";
+console.log(miCadena5[miCadena5.length-1]);
+
+// TEMA 33 - NOTACIÓN DE CORCHETES: DE DERECHA A IZQUIERDA
+
+var miCadena6;
+/**El penúltimo indice siempre es longitud -2 porque comenzamos a contar desde 0.
+ * miCadena5.length para JavaScript es "10"
+ * El último índice es 9
+ * Cadena: J a v a S c r i p t
+ * índice: 0 1 2 3 4 5 6 7 8 9
+ */
+ miCadena6 = "JavaScript";
+ console.log(miCadena5[miCadena5.length-2]); // índice 8 = p
