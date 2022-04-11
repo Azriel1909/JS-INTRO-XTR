@@ -217,3 +217,4 @@ console.log("Después: "+ JSON.stringify(miArreglo3)); // Se convierte el arregl
  */
 
 console.log(true);
+console.log(false);
